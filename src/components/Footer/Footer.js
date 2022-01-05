@@ -18,10 +18,6 @@ const Footer = () => {
   return (
     <FooterWrapper>
       <LinkList>
-        {/* <LinkColumn>
-          <LinkTitle>Call</LinkTitle>
-          <LinkItem href="tel:314-343-3432">314-343-3432</LinkItem>
-        </LinkColumn> */}
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
           <LinkItem href="mailto:contact@jsmastery.com">
@@ -31,7 +27,7 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Always working to change the world</Slogan>
+          <Slogan>Always working to change the world 😀</Slogan>
         </CompanyContainer>
         <SocialContainer>
           <SocialIcons href="https://github.com/Youngermaster">

@@ -19,11 +19,21 @@ const Home = () => {
           content="Juan Manuel Young Hoyos"
           key="title"
         />
+        <meta
+          name="description"
+          content="This is Juan Manuel Young Hoyo's portfolio, aka Youngermaster. Here you will find
+          projects, interests and information about him."
+        />
+        <meta
+          name="keywords"
+          content="Youngermaster, Juan Manuel Young Hoyos, Next.js, React.js, CSS, JavaScript, 
+          Youngermaster"
+        />
+        <meta name="author" content="Juan Manuel Young Hoyos (Youngermaster)" />
       </Head>
       <Layout>
         <Section grid>
           <Hero />
-          <BgAnimation />
           <BgAnimation />
         </Section>
         <Projects />
