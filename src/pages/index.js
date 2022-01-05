@@ -14,6 +14,11 @@ const Home = () => {
       <Head>
         <title>Juan Manuel Young Hoyos</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta
+          property="og:title"
+          content="Juan Manuel Young Hoyos"
+          key="title"
+        />
       </Head>
       <Layout>
         <Section grid>
