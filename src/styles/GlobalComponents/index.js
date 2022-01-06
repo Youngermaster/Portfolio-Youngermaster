@@ -150,7 +150,7 @@ export const SecondaryBtn = styled.button`
 
   &:active {
     background: #e0e4eb;
-    border: 1px solid #F24171;
+    border: 1px solid #f24171;
     box-shadow: inset 0px 2px 1px rgba(46, 49, 55, 0.15),
       inset 0px 0px 4px rgba(20, 20, 55, 0.3);
   }
@@ -222,7 +222,7 @@ export const ButtonFront = styled.button`
   height: 100%;
   background: ${({ alt }) =>
     alt
-      ? "linear-gradient(270deg, #0CB1F2 0%, #F2A81D 100%)"
+      ? "linear-gradient(270deg, #F24171 0%, #B133FF 100%)"
       : "linear-gradient(270deg, #0CB1F2 0%, #F2A81D 100%)"};
   opacity: ${({ disabled }) => (disabled ? ".5" : "1")};
   transition: 0.4s ease;
