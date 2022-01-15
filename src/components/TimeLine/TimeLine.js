@@ -74,7 +74,10 @@ const Timeline = () => {
         </b>
         , it means that what I like the most is to be able to build something
         that is really useful, it doesn't necessarily has to be something big,
-        at the beginning something that works.
+        at the beginning something that works. I'm like an ace, I can work on
+        different types of projects related to technology without too many
+        problems, although my main strengths are software development, security
+        and team management.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

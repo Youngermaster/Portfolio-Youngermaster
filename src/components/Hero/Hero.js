@@ -12,7 +12,7 @@ const Hero = (props) => (
   <>
     <Section row nopadding>
       <LeftSection>
-        <LogoHeroImg src="/images/Logo-1000x1000.png" height={1} width={1} />
+        <LogoHeroImg src="/images/Logo-1000x1000.png" alt="Youngermaster's Logo" />
         <SectionTitle main center>
           Youngermaster's
           <br />
