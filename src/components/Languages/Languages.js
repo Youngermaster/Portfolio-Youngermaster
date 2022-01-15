@@ -10,18 +10,18 @@ import {
   CarouselItemText,
   CarouselItemTitle,
   CarouselMobileScrollNode,
-} from "./TimeLineStyles";
+} from "../TimeLine/TimeLineStyles";
 import {
   Section,
   SectionDivider,
   SectionText,
   SectionTitle,
 } from "../../styles/GlobalComponents";
-import { TimeLineData } from "../../constants/constants";
+import { LanguagesData } from "../../constants/constants";
 
-const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
+const TOTAL_CAROUSEL_COUNT = LanguagesData.length;
 
-const Timeline = () => {
+const Languages = () => {
   const [activeItem, setActiveItem] = useState(0);
   const carouselRef = useRef();
 
@@ -34,7 +34,7 @@ const Timeline = () => {
 
     if (carouselRef.current) {
       const scrollLeft = Math.floor(
-        carouselRef.current.scrollWidth * 0.7 * (i / TimeLineData.length)
+        carouselRef.current.scrollWidth * 0.7 * (i / LanguagesData.length)
       );
 
       scroll(carouselRef.current, scrollLeft);
@@ -46,7 +46,7 @@ const Timeline = () => {
       const index = Math.round(
         (carouselRef.current.scrollLeft /
           (carouselRef.current.scrollWidth * 0.7)) *
-          TimeLineData.length
+          LanguagesData.length
       );
 
       setActiveItem(index);
@@ -64,27 +64,23 @@ const Timeline = () => {
   }, []);
 
   return (
-    <Section id="about">
+    <Section id="languages">
       <SectionDivider divider />
-      <SectionTitle>About Me</SectionTitle>
+      <SectionTitle>Languages</SectionTitle>
       <SectionText>
-        As I wrote early I'm a
+        In this section you will find the
         <b>
-          <strong> Problem Solver</strong>
+          <strong> languages </strong>
         </b>
-        , it means that what I like the most is to be able to build something
-        that is really useful, it doesn't necessarily has to be something big,
-        at the beginning something that works. I'm like an ace, I can work on
-        different types of projects related to technology without too many
-        problems, although my main strengths are software development, security
-        and team management.
-        <br />
-        <br />
-        All right, let's check a high level of my learning timeline:
+        that
+        <b>
+          <strong> I know </strong>
+        </b>
+        and I'm <b>currently learning</b>:
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
-          {TimeLineData.map((item, index) => (
+          {LanguagesData.map((item, index) => (
             <CarouselMobileScrollNode
               key={index}
               final={index === TOTAL_CAROUSEL_COUNT - 1}
@@ -138,7 +134,7 @@ const Timeline = () => {
         </>
       </CarouselContainer>
       <CarouselButtons>
-        {TimeLineData.map((item, index) => {
+        {LanguagesData.map((item, index) => {
           return (
             <CarouselButton
               key={index}
@@ -156,4 +152,4 @@ const Timeline = () => {
   );
 };
 
-export default Timeline;
+export default Languages;
