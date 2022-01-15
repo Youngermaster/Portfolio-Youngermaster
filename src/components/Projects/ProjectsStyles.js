@@ -7,6 +7,18 @@ export const Img = styled.img`
   overflow: hidden;
 `;
 
+export const LogoHeroImg = styled.img`
+  width: 20%;
+  height: 35%;
+  object-fit: cover;
+  overflow: hidden;
+
+  display: grid;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+`;
+
 export const GridContainer = styled.section`
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
@@ -90,7 +102,7 @@ export const ExternalLinks = styled.a`
   border-radius: 15px;
   transition: 0.5s;
   &:hover {
-    background: #801414;
+    background: #d91438;
   }
 `;
 

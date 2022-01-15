@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export",
+    "buildOut": "rm -rf out && next build && next export",
     "start": "next start"
   },
   "dependencies": {
