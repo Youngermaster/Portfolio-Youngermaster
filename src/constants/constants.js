@@ -77,3 +77,14 @@ export const LanguagesData = [
     text: "By the year 2030 I will be learning it.",
   },
 ];
+
+export const AcomplishmentsData = [
+  { number: 150, text: "Open Source Repositories" },
+  { number: 12, text: "Github Followers" },
+  { number: 20, text: "Github Stars" },
+  {
+    number: 100,
+    text: "Students helped with personalized tutorials",
+  },
+  { number: 1, text: "Commit per day" },
+];

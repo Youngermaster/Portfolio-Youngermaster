@@ -39,9 +39,9 @@ const Home = () => {
         </Section>
         <Timeline />
         <Languages />
-        <Projects />
-        <Technologies />
         <Acomplishments />
+        <Technologies />
+        <Projects />
       </Layout>
     </div>
   );
