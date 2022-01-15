@@ -29,11 +29,7 @@ export const SectionTitle = styled.h2`
   line-height: ${(props) => (props.main ? "72px" : "56px")};
   width: max-content;
   max-width: 100%;
-  background: linear-gradient(
-    121.57deg,
-    #D91438 18.77%,
-    rgba(255, 255, 255, 0.66) 60.15%
-  );
+  background: #d91438;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 16px;
@@ -272,7 +268,7 @@ export const LinkContainer = styled.div`
   padding: 8px;
 
   &:hover {
-    background-color: #8C162C;
+    background-color: #8c162c;
     transform: scale(1.2);
     cursor: pointer;
   }

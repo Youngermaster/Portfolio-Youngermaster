@@ -5,7 +5,6 @@ import {
   SectionText,
   SectionTitle,
 } from "../../styles/GlobalComponents";
-import Button from "../../styles/GlobalComponents/Button";
 import { LeftSection } from "./HeroStyles";
 import { LogoHeroImg } from "../Projects/ProjectsStyles";
 
@@ -20,10 +19,18 @@ const Hero = (props) => (
           Personal Portfolio
         </SectionTitle>
         <SectionText>
-          My name is <strong>Juan Manuel Young Hoyos</strong>, and I'm a{" "}
-          <strong>Problem Solver</strong>,
+          My name is
+          <b>
+            <strong> Juan Manuel Young Hoyos</strong>
+          </b>
+          , and I'm a
+          <b>
+            <strong> Problem Solver</strong>
+          </b>
+          , although I focus mainly on tech related solutions.
+          <br />
+          <br />
         </SectionText>
-        {/* <Button onClick={props.handleClick}>Learn More</Button> */}
       </LeftSection>
     </Section>
   </>

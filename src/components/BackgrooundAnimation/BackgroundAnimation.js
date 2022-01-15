@@ -10,7 +10,6 @@ const BackgroundAnimation = () => (
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      {/* <image href="/images/Logo-1000x1000.png" x="50%" y="50%" height="100" width="100"/> */}
       <g opacity="0.15">
         <path
           fillRule="evenodd"

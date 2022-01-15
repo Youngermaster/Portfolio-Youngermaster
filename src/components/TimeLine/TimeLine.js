@@ -68,9 +68,13 @@ const Timeline = () => {
       <SectionDivider divider />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        The purpose of JavaScript Mastery is to help aspiring and established
-        developers to take their development skills to the next level and build
-        awesome apps.
+        As I wrote early I'm a
+        <b>
+          <strong> Problem Solver</strong>
+        </b>
+        , it means that what I like the most is to be able to build something
+        that is really useful, it doesn't necessarily has to be something big,
+        at the beginning something that works.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
@@ -99,7 +103,8 @@ const Timeline = () => {
                       clip-rule="evenodd"
                       d="M2.5 5.5C3.88071 5.5 5 4.38071 5 3V3.5L208 3.50002V2.50002L5 2.5V3C5 1.61929 3.88071 0.5 2.5 0.5C1.11929 0.5 0 1.61929 0 3C0 4.38071 1.11929 5.5 2.5 5.5Z"
                       fill="url(#paint0_linear)"
-                      fill-opacity="0.33"
+                      fill="#D91438"
+                      fill-opacity="1"
                     />
                     <defs>
                       <linearGradient
