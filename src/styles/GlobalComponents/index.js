@@ -31,7 +31,7 @@ export const SectionTitle = styled.h2`
   max-width: 100%;
   background: linear-gradient(
     121.57deg,
-    #0cb1f2 18.77%,
+    #D91438 18.77%,
     rgba(255, 255, 255, 0.66) 60.15%
   );
   -webkit-background-clip: text;
@@ -86,12 +86,12 @@ export const SectionDivider = styled.div`
   background-color: #fff;
   background: ${(props) =>
     props.colorAlt
-      ? "linear-gradient(270deg, #0CB1F2 0%, #F2A81D 100%)"
+      ? "linear-gradient(270deg, #D91438 0%, #F2A81D 100%)"
       : "linear-gradient(270deg, #F24171 0%, #F2A81D 100%)"};
 
   background: ${(props) =>
     props.colorAlt
-      ? "linear-gradient(270deg, #0CB1F2 0%, #F2A81D 100%)"
+      ? "linear-gradient(270deg, #D91438 0%, #F2A81D 100%)"
       : "linear-gradient(270deg, #F24171 0%, #F2A81D 100%)"};
   margin: ${(props) => (props.divider ? "4rem 0" : "")};
 
@@ -187,8 +187,8 @@ export const ButtonBack = styled.div`
   color: #fff;
   background: ${({ alt }) =>
     alt
-      ? "linear-gradient(270deg, #0CB1F2 0%, #B133FF 100%)"
-      : "linear-gradient(270deg, #F24171 0%, #B133FF 100%)"};
+      ? "linear-gradient(270deg, #8C162C 0%, #D91438 100%)"
+      : "linear-gradient(270deg, #D91438 0%, #F24171 100%)"};
   cursor: pointer;
   transition: 0.5s ease;
   position: relative;
@@ -223,7 +223,7 @@ export const ButtonFront = styled.button`
   background: ${({ alt }) =>
     alt
       ? "linear-gradient(270deg, #F24171 0%, #B133FF 100%)"
-      : "linear-gradient(270deg, #0CB1F2 0%, #F2A81D 100%)"};
+      : "linear-gradient(270deg, #D91438 0%, #F2A81D 100%)"};
   opacity: ${({ disabled }) => (disabled ? ".5" : "1")};
   transition: 0.4s ease;
   font-size: ${({ alt }) => (alt ? "20px" : "24px")};
@@ -272,7 +272,7 @@ export const LinkContainer = styled.div`
   padding: 8px;
 
   &:hover {
-    background-color: #212d45;
+    background-color: #8C162C;
     transform: scale(1.2);
     cursor: pointer;
   }
