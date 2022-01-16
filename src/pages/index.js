@@ -7,7 +7,8 @@ import Technologies from "../components/Technologies/Technologies";
 import Timeline from "../components/TimeLine/TimeLine";
 import Languages from "../components/Languages/Languages";
 import { Layout } from "../layout/Layout";
-import { Section, SectionDivider } from "../styles/GlobalComponents";
+import { Section } from "../styles/GlobalComponents";
+import ConnectWithMe from "../components/ConnectWithMe/ConnectWithMe";
 
 const Home = () => {
   return (
@@ -42,6 +43,7 @@ const Home = () => {
         <Acomplishments />
         <Technologies />
         <Projects />
+        <ConnectWithMe />
       </Layout>
     </div>
   );

@@ -7,6 +7,13 @@ export const Img = styled.img`
   overflow: hidden;
 `;
 
+export const ProjectCardImg = styled.div`
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+`;
+
 export const LogoHeroImg = styled.img`
   width: 20%;
   height: 35%;
@@ -37,6 +44,10 @@ export const BlogCard = styled.div`
   border-radius: 10px;
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
   width: 400px;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
@@ -51,7 +62,7 @@ export const TitleContent = styled.div`
 export const HeaderThree = styled.h3`
   font-weight: 500;
   letter-spacing: 2px;
-  color: #9cc9e3;
+  color: #ffffff;
   padding: 0.5rem 0;
   font-size: ${(props) => (props.title ? "3rem" : "2rem")};
 `;
@@ -95,14 +106,14 @@ export const UtilityList = styled.ul`
 `;
 
 export const ExternalLinks = styled.a`
-  color: #d4c0c0;
+  color: #FFFFFF;
   font-size: 1.6rem;
   padding: 1rem 1.5rem;
-  background: #6b3030;
+  background: #d91438;
   border-radius: 15px;
   transition: 0.5s;
   &:hover {
-    background: #d91438;
+    background: #f24171;
   }
 `;
 
@@ -112,6 +123,6 @@ export const TagList = styled.ul`
   padding: 2rem;
 `;
 export const Tag = styled.li`
-  color: #d8bfbf;
+  color: #f24171;
   font-size: 1.5rem;
 `;
