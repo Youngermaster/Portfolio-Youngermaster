@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build && next export",
     "buildOut": "rm -rf out && next build && next export",
-    "start": "next start"
+    "start": "next start",
+    "githubExport": "npm run build && cd out/ && cp -r * ~/GitHub/Youngermaster/youngermaster.github.io"
   },
   "dependencies": {
     "next": "12.0.7",
