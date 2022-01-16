@@ -1104,6 +1104,21 @@
     "has" "^1.0.3"
     "side-channel" "^1.0.4"
 
+"irc-colors@^1.1.0":
+  "integrity" "sha512-HtszKchBQTcqw1DC09uD7i7vvMayHGM1OCo6AHt5pkgZEyo99ClhHTMJdf+Ezc9ovuNNxcH89QfyclGthjZJOw=="
+  "resolved" "https://registry.npmjs.org/irc-colors/-/irc-colors-1.5.0.tgz"
+  "version" "1.5.0"
+
+"irc@^0.5.2":
+  "integrity" "sha1-NxT0doNlqW0LL3dryRFmvrJGS7w="
+  "resolved" "https://registry.npmjs.org/irc/-/irc-0.5.2.tgz"
+  "version" "0.5.2"
+  dependencies:
+    "irc-colors" "^1.1.0"
+  optionalDependencies:
+    "iconv" "~2.2.1"
+    "node-icu-charset-detector" "~0.2.0"
+
 "is-arguments@^1.0.4":
   "integrity" "sha512-8Q7EARjzEnKpt/PCD7e1cgUS0a6X8u5tdSiMqXhojOdoV9TsMsiO+9VLC5vAmO8N7/GmXn7yjR8qnA6bVAEzfA=="
   "resolved" "https://registry.npmjs.org/is-arguments/-/is-arguments-1.1.1.tgz"
@@ -1438,6 +1453,13 @@
   "version" "1.4.9"
   dependencies:
     "he" "1.2.0"
+
+"node-irc@^0.0.5":
+  "integrity" "sha512-2K1tSLIz4zKn9s78AYRPuWRdAVqHH5ZebRHqzYSCaW8ZDcOemxUfWCrvf9RPAudQsiG3ZiHEQfNFSG5qVxkwrA=="
+  "resolved" "https://registry.npmjs.org/node-irc/-/node-irc-0.0.5.tgz"
+  "version" "0.0.5"
+  optionalDependencies:
+    "proxysocket" "^1.2.0"
 
 "node-releases@^1.1.71":
   "integrity" "sha512-rB1DUFUNAN4Gn9keO2K1efO35IDK7yKHCdCaIMvFO7yUYmmZYeDjnGKle26G4rwj+LKRQpjyUUvMkPglwGCYNQ=="

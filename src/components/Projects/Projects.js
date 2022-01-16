@@ -17,13 +17,28 @@ import {
   Section,
   SectionDivider,
   SectionTitle,
+  SectionText,
 } from "../../styles/GlobalComponents";
 import { projects } from "../../constants/constants";
 
 const Projects = () => (
   <Section nopadding id="projects">
     <SectionDivider />
-    <SectionTitle main>Projects</SectionTitle>
+    <SectionTitle main>Personal Projects</SectionTitle>
+    <SectionText>
+      These are the most notable projects right now, there are more on my
+      <strong>
+        <b>
+          <a href="https://github.com/Youngermaster"> GitHub </a>
+        </b>
+      </strong>
+      and
+      <strong>
+        <b>
+          <a href="https://gitlab.com/Youngermaster"> GitLab</a>
+        </b>
+      </strong>.
+    </SectionText>
     <GridContainer>
       {projects.map((p, i) => {
         return (

@@ -88,7 +88,7 @@ export const LanguagesData = [
 ];
 
 export const AcomplishmentsData = [
-  { number: 150, text: "Open Source Repositories" },
+  { number: 140, text: "Open Source Repositories" },
   { number: 12, text: "Github Followers" },
   { number: 20, text: "Github Stars" },
   {
