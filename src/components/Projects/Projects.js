@@ -12,6 +12,7 @@ import {
   TitleContent,
   UtilityList,
   Img,
+  ProjectCardImg,
 } from "./ProjectsStyles";
 import {
   Section,
@@ -37,20 +38,27 @@ const Projects = () => (
         <b>
           <a href="https://gitlab.com/Youngermaster"> GitLab</a>
         </b>
-      </strong>.
+      </strong>
+      .
     </SectionText>
     <GridContainer>
       {projects.map((p, i) => {
         return (
           <BlogCard key={i}>
-            <Img src={p.image} alt={p.title} />
+            <ProjectCardImg>
+              <Img src={p.image} alt={p.title} />
+            </ProjectCardImg>
             <TitleContent>
               <HeaderThree title>{p.title}</HeaderThree>
               <Hr />
             </TitleContent>
             <CardInfo className="card-info">{p.description}</CardInfo>
             <div>
-              <TitleContent>Stack</TitleContent>
+              <TitleContent>
+                <strong>
+                  <b>Stack</b>
+                </strong>
+              </TitleContent>
               <TagList>
                 {p.tags.map((t, i) => {
                   return <Tag key={i}>{t}</Tag>;

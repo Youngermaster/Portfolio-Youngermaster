@@ -1,43 +1,87 @@
 export const projects = [
   {
-    title: "MERN Memories",
+    title: "Accelerometer",
     description:
-      "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-    image: "/images/1.png",
-    tags: ["Mongo", "Express", "React", "Node"],
-    source: "https://google.com",
-    visit: "https://google.com",
+      "Obtain the data from your accelerometer in a time 'x', with time intervals 'y' in milliseconds and send the information wherever you want (Email, WhatsApp, etc.).",
+    image: "/images/00_Accelerometer.png",
+    tags: ["Flutter", "Dart"],
+    source: "https://github.com/Youngermaster/Accelerometer",
+    visit:
+      "https://play.google.com/store/apps/details?id=com.grisu.accelerometer",
     id: 0,
   },
   {
-    title: "E-Commerce",
+    title: "Anthropometric Evaluator",
     description:
-      "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-    image: "/images/2.png",
-    tags: ["React", "JavaScript"],
-    source: "https://google.com",
-    visit: "https://google.com",
+      "This application allows you to evaluate your body to know what state you are in, given some measurements that you will have to give.",
+    image: "/images/01_Anthropometric-Evaluator.png",
+    tags: ["Flutter", "Dart"],
+    source: "https://github.com/Youngermaster/Anthropometric-Evaluator",
+    visit:
+      "https://play.google.com/store/apps/details?id=com.grisu.anthropometric_evaluator",
     id: 1,
   },
   {
-    title: "WebRTC App",
+    title: "Platzi Community Wrapper Eraser Extension",
     description:
-      "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-    image: "/images/3.jpg",
-    tags: ["React", "WebRTC"],
-    source: "https://google.com",
-    visit: "https://google.com",
+      "The idea of this project is to remove the Community section on the Platzi's courses.",
+    image: "/images/02_Platzi-wrapper-eraser-extension.png",
+    tags: ["Javascript", "HTML", "CSS"],
+    source:
+      "https://github.com/Youngermaster/Platzi-community-wrapper-eraser-extension",
+    visit:
+      "https://chrome.google.com/webstore/detail/platzi-community-wrapper/dakgbbfpefoofghfbkopnbnpadeblbep",
     id: 2,
   },
   {
-    title: "Unichat",
+    title: "Tractor Agro Controller App",
     description:
-      "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: "/images/4.jpg",
-    tags: ["React", "ChatEngine", "Firebase"],
-    source: "https://google.com",
-    visit: "https://google.com",
+      "This app allow us to control a simulated IOT tractor through an app.",
+    image: "/images/03_Agro-Controller-App.gif",
+    tags: ["Flutter", "Dart"],
+    source: "https://github.com/Youngermaster/Agro-Controller-App",
+    visit: "https://github.com/Youngermaster/Agro-Controller-App",
     id: 3,
+  },
+  {
+    title: "Celestial Body Interaction",
+    description:
+      "This project make a simulator of the interaction of N (a natural number given) bodies in a 2D space.",
+    image: "/images/04_Celestial-Body-Interaction.gif",
+    tags: ["Python 3", "Matplot", "Numpy"],
+    source: "https://github.com/Youngermaster/Celestial-Object-Interaction",
+    visit: "https://github.com/Youngermaster/Celestial-Object-Interaction",
+    id: 4,
+  },
+  {
+    title: "YASIC",
+    description:
+      "On this repository you will find a programming language similar to BASIC.",
+    image: "/images/05_YASIC.png",
+    tags: ["Python 3"],
+    source: "https://github.com/Youngermaster/YASIC",
+    visit: "https://github.com/Youngermaster/YASIC",
+    id: 5,
+  },
+  {
+    title: "ST0256 Numerical Analysis",
+    description:
+      "The idea of this project is to test out if it is worth it to use C++ instead of Python for algorithms of some numeric methods, like finding roots of non-linear equations using Newton-Raphson's method.",
+    image: "/images/06_Numerical-Analysis.png",
+    tags: ["Python 3", "C++", "Javascript", "LaTex", "React"],
+    source: "https://github.com/Youngermaster/ST0256-Numerical-Analysis",
+    visit: "https://github.com/Youngermaster/ST0256-Numerical-Analysis",
+    id: 6,
+  },
+  {
+    title: "Unity FPS",
+    description:
+      "This is a First Person Shooter made with Unity 3D without any ending, just chill and explore this world, and you can download it here.",
+    image: "/images/07_Unity-FPS.gif",
+    tags: ["Unity 3D", "C#"],
+    source: "https://github.com/Youngermaster/Unity-FPS",
+    visit: "https://github.com/Youngermaster/Unity-FPS",
+    id: 7,
   },
 ];
 

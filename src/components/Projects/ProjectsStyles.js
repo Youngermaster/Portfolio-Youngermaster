@@ -7,6 +7,13 @@ export const Img = styled.img`
   overflow: hidden;
 `;
 
+export const ProjectCardImg = styled.div`
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+`;
+
 export const LogoHeroImg = styled.img`
   width: 20%;
   height: 35%;
@@ -37,6 +44,10 @@ export const BlogCard = styled.div`
   border-radius: 10px;
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
   width: 400px;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
