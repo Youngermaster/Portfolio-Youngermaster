@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
+import { SiGithub, SiInstagram, SiLinkedin } from "react-icons/si";
 
 import {
   Container,
@@ -22,35 +22,40 @@ const Header = () => (
     </Div1>
     <Div2>
       <li>
-        <Link href="#about">
+        <Link href="/#about">
           <NavLink>About</NavLink>
         </Link>
       </li>
       <li>
-        <Link href="#languages">
+        <Link href="/#languages">
           <NavLink>Languages</NavLink>
         </Link>
       </li>
       <li>
-        <Link href="#projects">
+        <Link href="/#tech">
+          <NavLink>Technologies</NavLink>
+        </Link>
+      </li>
+      <li>
+        <Link href="/#projects">
           <NavLink>Projects</NavLink>
         </Link>
       </li>
       <li>
-        <Link href="#tech">
-          <NavLink>Technologies</NavLink>
+        <Link href="/#connect">
+          <NavLink>Connect</NavLink>
         </Link>
       </li>
     </Div2>
     <Div3>
       <SocialIcons href="https://github.com/Youngermaster">
-        <AiFillGithub size="3rem" />
+        <SiGithub size="3rem" />
       </SocialIcons>
       <SocialIcons href="https://www.linkedin.com/in/juan-manuel-young-hoyos/">
-        <AiFillLinkedin size="3rem" />
+        <SiLinkedin size="3rem" />
       </SocialIcons>
       <SocialIcons href="https://www.instagram.com/jmyounghoyos/">
-        <AiFillInstagram size="3rem" />
+        <SiInstagram size="3rem" />
       </SocialIcons>
     </Div3>
   </Container>

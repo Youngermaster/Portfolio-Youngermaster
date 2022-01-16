@@ -29,7 +29,7 @@ import {
 } from "../Technologies/TechnologiesStyles";
 
 const ConnectWithMe = () => (
-  <Section id="tech">
+  <Section id="connect">
     <SectionDivider divider />
     <SectionTitle>Connect with me</SectionTitle>
     <SectionText>
