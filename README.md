@@ -1,11 +1,7 @@
 # Personal Portfolio
 
-## Color Palette
+This is my personal portfolio made with `Next.js`.
 
-```css
-#D91438
-#D91438
-#F2A81D
-#F2921D
-#D91438
-```
+## TODOS
+
+- [ ] Add additional pages to give more detailed information.
