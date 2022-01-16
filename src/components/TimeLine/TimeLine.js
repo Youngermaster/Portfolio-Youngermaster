@@ -2,8 +2,8 @@ import React, { useState, useRef, useEffect } from "react";
 
 import {
   CarouselButton,
-  CarouselButtonDot,
   CarouselButtons,
+  CarouselButtonDot,
   CarouselContainer,
   CarouselItem,
   CarouselItemImg,
